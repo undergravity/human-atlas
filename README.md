@@ -22,6 +22,8 @@ An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Ta
 - **Dark Mode**: Fully implemented a sleek dark mode for a better viewing experience in low-light environments.
 - **Advanced Gestures**: Introduced new interaction gestures, including intuitive cylinder rotation gestures for smoother 3D model inspection.
 - **Enhanced Mobile Adaptation**: Optimized layouts, controls, and touch interactions to provide a seamless experience on mobile devices.
+- **Progressive Web App (PWA)**: Fully installable application with smart native prompts and device-specific offline fallbacks.
+- **Two-Phase Async Loading**: Drastically improved initial load times by prioritizing the download of Skeletal and Muscular systems first to unlock the UI instantly, while silently fetching remaining systems in the background.
 
 ### Explore
 
@@ -102,6 +104,8 @@ Issues and pull requests are welcome. Please include reproduction steps and brow
 - **暗夜模式**：全面支持暗黑主题，在弱光环境下提供更舒适、更护眼的视觉体验。
 - **高级交互手势**：引入了全新的触控与鼠标交互，包括符合直觉的“圆柱体手势 (Cylinder Gestures)”，使 3D 模型的全方位观察更加流畅自然。
 - **移动端深度适配**：针对手机和平板的屏幕尺寸及触控习惯进行了专属优化，确保在各种移动设备上都能获得丝滑的使用体验。
+- **PWA 渐进式应用**：支持直接将网站安装为桌面或手机 App，内置智能设备识别和针对性安装引导。
+- **两阶段后台异步加载 (极速优化)**：打破了原本一次性加载全量数据的瓶颈，首屏仅优先拉取骨骼与肌肉的二进制模型，瞬间解锁可交互的 3D 界面；其余神经、血管等系统则在后台静默异步下载，既保证了首屏极速加载，又实现了后续模块的“秒开”切换。
 
 ### 功能探索
 
