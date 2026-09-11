@@ -48,7 +48,7 @@ useEffect(() => {
  useEffect(()=>{if(!atlas)return;return registerAtlasTools(atlas,c=>flushSync(()=>choose(c)));},[atlas]);
  useEffect(()=>{const h=(e:any)=>{e.preventDefault();setDeferredPrompt(e);if(typeof window!=='undefined'&&window.innerWidth<768){if(!localStorage.getItem('pwa_prompted')){setShowInstallBanner(true);localStorage.setItem('pwa_prompted','true');}}};window.addEventListener('beforeinstallprompt',h);return ()=>window.removeEventListener('beforeinstallprompt',h);},[]);
  const choosePart=(id:string)=>{const p=parts.get(id);if(!p)return;setChosen({id:p.conceptId,name:p.name,nameZh:p.nameZh,elements:[id]});setState(s=>({...s,selected:[id],isolate:false,rotate:false}));setDetails(true);if(typeof window!=='undefined'&&window.innerWidth<768)setPanel(null);};
- const toggle=(id:SystemId)=>{setDetails(false);setState(s=>({...s,selected:[],isolate:false,visible:s.visible.includes(id)?s.visible.filter(x=>x!==id):[...s.visible,id]}));};
+ const toggle=(id:SystemId)=>{setDetails(false);setState(s=>({...s,selected:[],isolate:false,visible:s.visible.includes(id)?s.visible.filter((x:SystemId)=>x!==id):[...s.visible,id]}));};
  const reset=()=>{setState(s=>({...initial,visible:DEFAULT_VISIBLE,reset:s.reset+1}));setChosen(null);setDetails(false);if(typeof window!=='undefined'&&window.innerWidth<768)setPanel(null);};
  const openPanel=(next:'layers'|'search')=>{setDetails(false);setPanel(p=>p===next?null:next);};
  return <main className="studio">
