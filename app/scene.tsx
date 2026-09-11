@@ -86,7 +86,7 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
          for(let i=0;i<atlas.chunks.length;i++){if(!priorityChunks.has(i))remainingChunks.push(i);}
          
          let cursor = 0;
-         await Promise.all(Array.from({length:3}, async() => {
+         await Promise.all(Array.from({length:8}, async() => {
              while(cursor < orderedChunks.length) {
                  const i = orderedChunks[cursor++];
                  await loadChunk(i);
@@ -100,7 +100,7 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
          }
          
          cursor = 0;
-         await Promise.all(Array.from({length:3}, async() => {
+         await Promise.all(Array.from({length:8}, async() => {
              while(cursor < remainingChunks.length) {
                  const i = remainingChunks[cursor++];
                  await loadChunk(i);
