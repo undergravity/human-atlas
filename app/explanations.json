@@ -1,0 +1,1770 @@
+{
+  "heart": {
+    "en": "A muscular pump in the chest. Its right side sends blood to the lungs; its left side sends blood through the systemic circulation.",
+    "zh": "胸腔内的肌肉泵。右侧将血液泵入肺部；左侧将血液泵入体循环。"
+  },
+  "liver": {
+    "en": "A large organ beneath the right side of the diaphragm. It processes absorbed nutrients, produces bile, and synthesizes many proteins carried in the blood.",
+    "zh": "横膈膜右下方的大型器官。它处理吸收的营养、分泌胆汁，并合成血液中的许多蛋白质。"
+  },
+  "brain": {
+    "en": "The central organ of the nervous system. Its interconnected regions support perception, movement, memory, language, and the regulation of bodily functions.",
+    "zh": "神经系统的中枢器官。其相互连接的区域支持感知、运动、记忆、语言以及身体机能的调节。"
+  },
+  "stomach": {
+    "en": "A muscular chamber between the esophagus and small intestine. It stores and mixes food with acid and enzymes before releasing it into the duodenum.",
+    "zh": "位于食道和小肠之间的肌肉腔室。它在将食物排入十二指肠前，将其与胃酸和酶混合并储存。"
+  },
+  "spleen": {
+    "en": "A lymphoid organ in the upper left abdomen. It filters blood, removes aging blood cells, and participates in immune responses.",
+    "zh": "左上腹的淋巴器官。它过滤血液，清除老化的血细胞，并参与免疫反应。"
+  },
+  "pancreas": {
+    "en": "An abdominal organ with digestive and endocrine roles. It supplies enzymes to the small intestine and releases hormones including insulin and glucagon.",
+    "zh": "兼具消化和内分泌功能的腹部器官。它向小肠提供酶，并释放包括胰岛素和胰高血糖素在内的激素。"
+  },
+  "urinary bladder": {
+    "en": "A muscular reservoir in the pelvis that stores urine arriving from the kidneys through the ureters.",
+    "zh": "位于骨盆内的肌肉性储尿器，用于储存从肾脏经输尿管流来的尿液。"
+  },
+  "trachea": {
+    "en": "The main airway connecting the larynx to the bronchi. Its cartilage supports keep the airway open during breathing.",
+    "zh": "连接喉部和支气管的主要气道。其软骨支撑在呼吸时保持气道畅通。"
+  },
+  "diaphragm": {
+    "en": "A broad muscle separating the chest and abdomen. When it contracts, it increases chest volume and helps draw air into the lungs.",
+    "zh": "分隔胸腔和腹腔的宽阔肌肉。当它收缩时，会增加胸腔体积，帮助将空气吸入肺部。"
+  },
+  "femur": {
+    "en": "The longest and strongest bone in the body, extending from the hip to the knee. It bears body weight during standing and walking.",
+    "zh": "人体最长最强壮的骨骼，从髋部延伸至膝部。站立和行走时承受体重。"
+  },
+  "tibia": {
+    "en": "The larger bone of the lower leg, bearing most of the body weight. It articulates with the femur at the knee and the talus at the ankle.",
+    "zh": "小腿较大的骨骼，承受大部分体重。上端与股骨构成膝关节，下端与距骨构成踝关节。"
+  },
+  "fibula": {
+    "en": "The slender bone on the lateral side of the lower leg. It serves mainly as an attachment for muscles and helps stabilize the ankle.",
+    "zh": "小腿外侧的细长骨骼。主要作为肌肉附着点，并帮助稳定踝关节。"
+  },
+  "patella": {
+    "en": "A sesamoid bone embedded in the quadriceps tendon, forming the kneecap. It protects the knee joint and improves the leverage of the quadriceps.",
+    "zh": "嵌入股四头肌腱中的籽骨，构成膝盖骨。保护膝关节并增强股四头肌的力学效率。"
+  },
+  "humerus": {
+    "en": "The long bone of the upper arm, connecting the shoulder to the elbow. It provides attachment for muscles that move the arm and forearm.",
+    "zh": "上臂的长骨，连接肩部与肘部。为驱动上臂和前臂运动的肌肉提供附着点。"
+  },
+  "radius": {
+    "en": "The lateral bone of the forearm. It rotates around the ulna to allow pronation and supination of the hand.",
+    "zh": "前臂外侧的骨骼。它围绕尺骨旋转，使手能够进行旋前和旋后运动。"
+  },
+  "ulna": {
+    "en": "The medial bone of the forearm, forming the point of the elbow. It provides a stable axis for forearm rotation.",
+    "zh": "前臂内侧的骨骼，构成肘尖。为前臂旋转提供稳定的轴心。"
+  },
+  "scapula": {
+    "en": "A flat triangular bone on the upper back. It anchors several muscles that move the arm and stabilize the shoulder.",
+    "zh": "上背部的扁平三角形骨骼。锚定多条驱动上臂运动和稳定肩部的肌肉。"
+  },
+  "clavicle": {
+    "en": "A slender S-shaped bone connecting the sternum to the scapula. It acts as a strut to hold the shoulder laterally.",
+    "zh": "连接胸骨和肩胛骨的细长S形骨骼。起到支撑作用，使肩部向外侧展开。"
+  },
+  "sternum": {
+    "en": "The flat bone at the center of the chest. It anchors the ribs anteriorly and protects the heart and great vessels.",
+    "zh": "位于胸部中央的扁平骨骼。在前方连接肋骨，保护心脏和大血管。"
+  },
+  "sacrum": {
+    "en": "A triangular bone at the base of the spine formed by five fused vertebrae. It transmits the weight of the trunk to the pelvis.",
+    "zh": "由五块融合椎骨组成的位于脊柱底部的三角形骨骼。将躯干的重量传递至骨盆。"
+  },
+  "mandible": {
+    "en": "The lower jawbone and the only movable bone of the skull. It holds the lower teeth and enables chewing and speech.",
+    "zh": "下颌骨，头骨中唯一可活动的骨骼。承载下齿并使咀嚼和言语成为可能。"
+  },
+  "skull": {
+    "en": "The bony framework of the head, composed of cranial and facial bones. It encloses and protects the brain, eyes, and inner ears.",
+    "zh": "头部的骨性框架，由颅骨和面骨组成。包裹并保护大脑、眼睛和内耳。"
+  },
+  "pelvis": {
+    "en": "A ring of bones formed by the hip bones, sacrum, and coccyx. It supports the trunk, protects pelvic organs, and transfers weight to the lower limbs.",
+    "zh": "由髋骨、骶骨和尾骨组成的骨环。支撑躯干，保护盆腔器官，并将重量传递至下肢。"
+  },
+  "pectoralis major": {
+    "en": "A large fan-shaped muscle of the chest. It adducts, flexes, and medially rotates the arm at the shoulder.",
+    "zh": "胸部的大扇形肌肉。使肩关节处的上臂内收、屈曲和内旋。"
+  },
+  "deltoid": {
+    "en": "The triangular muscle capping the shoulder. Its anterior, middle, and posterior fibers flex, abduct, and extend the arm respectively.",
+    "zh": "覆盖肩部的三角形肌肉。其前部、中部和后部纤维分别使上臂屈曲、外展和伸展。"
+  },
+  "biceps brachii": {
+    "en": "A two-headed muscle on the front of the upper arm. It flexes the elbow and supinates the forearm.",
+    "zh": "上臂前面的双头肌肉。屈肘并使前臂旋后。"
+  },
+  "triceps brachii": {
+    "en": "A three-headed muscle on the back of the upper arm. It is the primary extensor of the elbow.",
+    "zh": "上臂后面的三头肌肉。是肘关节的主要伸展肌。"
+  },
+  "trapezius": {
+    "en": "A large diamond-shaped muscle of the upper back and neck. It elevates, retracts, and depresses the scapula and extends the neck.",
+    "zh": "上背部和颈部的大菱形肌肉。使肩胛骨上提、后缩和下压，并伸展颈部。"
+  },
+  "latissimus dorsi": {
+    "en": "The broadest muscle of the back. It extends, adducts, and medially rotates the arm; important in pulling and climbing.",
+    "zh": "背部最宽阔的肌肉。使上臂伸展、内收和内旋；在牵拉和攀爬动作中起关键作用。"
+  },
+  "rectus abdominis": {
+    "en": "The paired strap muscle running vertically along the front of the abdomen. It flexes the trunk and compresses abdominal contents.",
+    "zh": "沿腹部前面纵向排列的成对带状肌肉。屈曲躯干并压缩腹腔内容物。"
+  },
+  "external oblique": {
+    "en": "The largest and outermost abdominal wall muscle. It rotates and laterally flexes the trunk and compresses the abdomen.",
+    "zh": "腹壁最大且最外层的肌肉。使躯干旋转和侧屈，并压缩腹部。"
+  },
+  "internal oblique": {
+    "en": "The middle layer of the lateral abdominal wall. It works with the external oblique to rotate and flex the trunk.",
+    "zh": "腹壁侧面的中层肌肉。与腹外斜肌协同完成躯干的旋转和屈曲。"
+  },
+  "gluteus maximus": {
+    "en": "The largest and most superficial muscle of the buttock. It powerfully extends and laterally rotates the hip, essential for rising from a seated position and climbing.",
+    "zh": "臀部最大且最表浅的肌肉。强力伸展和外旋髋关节，对站起和登高至关重要。"
+  },
+  "gluteus medius": {
+    "en": "A fan-shaped muscle on the lateral surface of the pelvis. It abducts the thigh and stabilizes the pelvis during walking.",
+    "zh": "位于骨盆外侧面的扇形肌肉。使大腿外展，并在行走时稳定骨盆。"
+  },
+  "quadriceps femoris": {
+    "en": "The four-headed muscle group on the front of the thigh. It is the primary extensor of the knee and assists hip flexion.",
+    "zh": "大腿前面的四头肌群。是膝关节的主要伸展肌，并辅助髋关节屈曲。"
+  },
+  "rectus femoris": {
+    "en": "The central muscle of the quadriceps, crossing both hip and knee. It flexes the hip and extends the knee.",
+    "zh": "股四头肌的中央肌肉，跨越髋关节和膝关节。屈曲髋关节并伸展膝关节。"
+  },
+  "vastus lateralis": {
+    "en": "The largest component of the quadriceps, on the outer thigh. It extends the knee and stabilizes the patella.",
+    "zh": "股四头肌中最大的部分，位于大腿外侧。伸展膝关节并稳定髌骨。"
+  },
+  "vastus medialis": {
+    "en": "The inner component of the quadriceps. It extends the knee and is critical for the final degrees of knee extension and patellar tracking.",
+    "zh": "股四头肌的内侧部分。伸展膝关节，对膝关节终末伸展和髌骨轨迹至关重要。"
+  },
+  "vastus intermedius": {
+    "en": "The deep central component of the quadriceps, lying beneath the rectus femoris. It extends the knee.",
+    "zh": "股四头肌的深层中央部分，位于股直肌下方。伸展膝关节。"
+  },
+  "biceps femoris": {
+    "en": "A two-headed muscle on the back of the thigh, part of the hamstrings. It flexes the knee and extends the hip.",
+    "zh": "大腿后面的双头肌肉，属于腘绳肌群。屈曲膝关节并伸展髋关节。"
+  },
+  "semitendinosus": {
+    "en": "A long muscle on the posteromedial thigh, part of the hamstrings. It flexes the knee and extends the hip.",
+    "zh": "大腿后内侧的长肌肉，属于腘绳肌群。屈曲膝关节并伸展髋关节。"
+  },
+  "semimembranosus": {
+    "en": "A broad muscle deep to the semitendinosus, part of the hamstrings. It flexes the knee, extends the hip, and medially rotates the tibia.",
+    "zh": "半腱肌深层的宽阔肌肉，属于腘绳肌群。屈曲膝关节、伸展髋关节并内旋胫骨。"
+  },
+  "gastrocnemius": {
+    "en": "The prominent two-headed muscle of the calf. It plantarflexes the foot and assists knee flexion; essential for walking and jumping.",
+    "zh": "小腿后部突出的双头肌肉。使足跖屈并辅助膝关节屈曲；对行走和跳跃至关重要。"
+  },
+  "soleus": {
+    "en": "A broad flat muscle deep to the gastrocnemius. It plantarflexes the foot and is a key postural muscle during standing.",
+    "zh": "腓肠肌深层的宽阔扁平肌肉。使足跖屈，是站立时关键的姿势维持肌。"
+  },
+  "tibialis anterior": {
+    "en": "A muscle on the anterior shin. It dorsiflexes and inverts the foot, preventing foot-slap during walking.",
+    "zh": "胫骨前面的肌肉。使足背屈和内翻，防止行走时足部拍击地面。"
+  },
+  "sartorius": {
+    "en": "The longest muscle in the body, crossing from the hip to the inner knee. It flexes, abducts, and laterally rotates the hip.",
+    "zh": "人体最长的肌肉，从髋部斜跨至膝内侧。使髋关节屈曲、外展和外旋。"
+  },
+  "gracilis": {
+    "en": "A thin strap-like muscle on the medial thigh. It adducts the thigh and assists knee flexion.",
+    "zh": "大腿内侧的薄带状肌肉。使大腿内收并辅助膝关节屈曲。"
+  },
+  "adductor longus": {
+    "en": "A triangular muscle of the medial thigh. It adducts and assists in flexing and rotating the hip.",
+    "zh": "大腿内侧的三角形肌肉。使大腿内收，并辅助髋关节的屈曲和旋转。"
+  },
+  "adductor magnus": {
+    "en": "The largest adductor muscle, forming the bulk of the medial thigh. Its anterior fibers adduct and flex the hip; posterior fibers extend it.",
+    "zh": "最大的内收肌，构成大腿内侧的主体。前部纤维使髋关节内收和屈曲；后部纤维使其伸展。"
+  },
+  "piriformis": {
+    "en": "A small muscle deep in the buttock, passing from sacrum to femur. It laterally rotates the extended hip and abducts the flexed hip.",
+    "zh": "臀部深层的小肌肉，从骶骨延伸至股骨。伸髋时外旋，屈髋时外展。"
+  },
+  "iliopsoas": {
+    "en": "A composite of the psoas major and iliacus muscles. It is the strongest flexor of the hip joint.",
+    "zh": "由腰大肌和髂肌组成的复合肌。是髋关节最强力的屈肌。"
+  },
+  "sternocleidomastoid": {
+    "en": "A prominent muscle on each side of the neck. Acting alone it tilts and rotates the head; acting together both sides flex the neck.",
+    "zh": "颈部两侧的突出肌肉。单侧作用使头侧倾和旋转；双侧同时作用屈曲颈部。"
+  },
+  "masseter": {
+    "en": "A thick rectangular muscle of the jaw. It elevates the mandible and is one of the strongest muscles for chewing.",
+    "zh": "下颌的厚矩形肌肉。提升下颌骨，是咀嚼时最强力的肌肉之一。"
+  },
+  "brachialis": {
+    "en": "A muscle beneath the biceps brachii. It is the primary flexor of the elbow regardless of forearm position.",
+    "zh": "位于肱二头肌下方的肌肉。无论前臂位置如何，都是肘关节的主要屈肌。"
+  },
+  "brachioradialis": {
+    "en": "A forearm muscle forming the lateral border of the cubital fossa. It flexes the elbow, especially in a neutral forearm position.",
+    "zh": "构成肘窝外侧缘的前臂肌肉。屈曲肘关节，尤其在前臂中立位时。"
+  },
+  "supraspinatus": {
+    "en": "A rotator cuff muscle above the scapular spine. It initiates arm abduction and stabilizes the humeral head in the glenoid.",
+    "zh": "位于肩胛冈上方的肩袖肌肉。启动上臂外展并将肱骨头稳定在关节盂中。"
+  },
+  "infraspinatus": {
+    "en": "A rotator cuff muscle below the scapular spine. It laterally rotates the arm and stabilizes the shoulder joint.",
+    "zh": "位于肩胛冈下方的肩袖肌肉。使上臂外旋并稳定肩关节。"
+  },
+  "serratus anterior": {
+    "en": "A fan-shaped muscle on the lateral chest wall. It protracts the scapula and holds it against the thorax; vital for pushing and punching.",
+    "zh": "胸壁侧面的扇形肌肉。使肩胛骨前伸并紧贴胸廓；对推挤和挥拳动作至关重要。"
+  },
+  "erector spinae": {
+    "en": "A group of muscles running along the spine. They extend the vertebral column and maintain upright posture.",
+    "zh": "沿脊柱排列的一组肌肉。伸展脊柱并维持直立姿势。"
+  },
+  "fibularis longus": {
+    "en": "A muscle on the lateral lower leg. It everts and plantarflexes the foot and supports the transverse arch.",
+    "zh": "小腿外侧的肌肉。使足外翻和跖屈，并支撑足横弓。"
+  },
+  "fibularis brevis": {
+    "en": "A muscle on the lateral lower leg deep to the fibularis longus. It everts and plantarflexes the foot.",
+    "zh": "腓骨长肌深层的小腿外侧肌肉。使足外翻和跖屈。"
+  },
+  "extensor digitorum longus": {
+    "en": "A muscle on the anterior leg. It extends the lateral four toes and dorsiflexes the foot.",
+    "zh": "小腿前面的肌肉。伸展外侧四趾并使足背屈。"
+  },
+  "flexor digitorum longus": {
+    "en": "A muscle on the posterior leg. It flexes the lateral four toes, aiding push-off during walking.",
+    "zh": "小腿后面的肌肉。屈曲外侧四趾，帮助行走时的蹬地动作。"
+  },
+  "flexor carpi radialis": {
+    "en": "A forearm muscle on the radial side. It flexes and abducts the wrist.",
+    "zh": "前臂桡侧的肌肉。使腕关节屈曲和外展。"
+  },
+  "flexor carpi ulnaris": {
+    "en": "A forearm muscle on the ulnar side. It flexes and adducts the wrist.",
+    "zh": "前臂尺侧的肌肉。使腕关节屈曲和内收。"
+  },
+  "extensor carpi radialis longus": {
+    "en": "A forearm muscle. It extends and abducts the wrist, and stabilizes the wrist during gripping.",
+    "zh": "前臂肌肉。使腕关节伸展和外展，并在握拳时稳定腕部。"
+  },
+  "extensor digitorum": {
+    "en": "A forearm muscle that extends the fingers at the metacarpophalangeal joints and assists wrist extension.",
+    "zh": "前臂肌肉。在掌指关节处伸展手指，并辅助腕关节伸展。"
+  },
+  "pronator teres": {
+    "en": "A forearm muscle crossing from medial humerus to the radius. It pronates the forearm and assists elbow flexion.",
+    "zh": "从肱骨内侧到桡骨的前臂肌肉。使前臂旋前并辅助肘关节屈曲。"
+  },
+  "levator scapulae": {
+    "en": "A muscle at the back and side of the neck. It elevates the scapula and tilts the glenoid inferiorly.",
+    "zh": "颈部后外侧的肌肉。上提肩胛骨并使关节盂向下倾斜。"
+  },
+  "rhomboid major": {
+    "en": "A muscle between the spine and scapula. It retracts and elevates the scapula, stabilizing it during arm movements.",
+    "zh": "位于脊柱和肩胛骨之间的肌肉。使肩胛骨后缩和上提，在上肢运动时稳定肩胛骨。"
+  },
+  "platysma": {
+    "en": "A thin sheet-like muscle in the superficial neck. It tenses the skin of the neck and depresses the lower lip.",
+    "zh": "颈部浅层的薄片状肌肉。绷紧颈部皮肤并降低下唇。"
+  },
+  "orbicularis oculi": {
+    "en": "The sphincter muscle around the eye. It closes the eyelids for blinking and squinting.",
+    "zh": "眼睛周围的括约肌。使眼睑闭合，实现眨眼和眯眼。"
+  },
+  "temporalis": {
+    "en": "A fan-shaped muscle on the side of the skull. It elevates and retracts the mandible during chewing.",
+    "zh": "颅骨侧面的扇形肌肉。在咀嚼时提升和后缩下颌骨。"
+  },
+  "sciatic nerve": {
+    "en": "The largest nerve in the body, running from the lower back through the buttock and down the leg. It supplies motor and sensory innervation to most of the lower limb.",
+    "zh": "人体最大的神经，从下背部经臀部延伸至下肢。为下肢大部分区域提供运动和感觉神经支配。"
+  },
+  "femoral nerve": {
+    "en": "A major nerve of the anterior thigh. It innervates the quadriceps and the skin of the anterior thigh and medial leg.",
+    "zh": "大腿前部的主要神经。支配股四头肌以及大腿前面和小腿内侧的皮肤。"
+  },
+  "median nerve": {
+    "en": "A nerve of the upper limb passing through the carpal tunnel. It innervates most forearm flexors and the thenar muscles of the thumb.",
+    "zh": "上肢神经，穿过腕管。支配前臂大部分屈肌和拇指的鱼际肌群。"
+  },
+  "ulnar nerve": {
+    "en": "A nerve running behind the medial epicondyle of the elbow (\"funny bone\"). It innervates intrinsic hand muscles and provides sensation to the little finger and ring finger.",
+    "zh": "沿肘内上髁后方走行的神经（\"麻骨\"）。支配手部固有肌，并提供小指和环指的感觉。"
+  },
+  "radial nerve": {
+    "en": "The nerve of the posterior arm and forearm. It innervates the triceps and all wrist and finger extensors.",
+    "zh": "上臂和前臂后侧的神经。支配肱三头肌以及所有腕部和手指伸肌。"
+  },
+  "musculocutaneous nerve": {
+    "en": "A nerve of the upper arm. It innervates the biceps brachii, brachialis, and coracobrachialis, and provides sensation to the lateral forearm.",
+    "zh": "上臂的神经。支配肱二头肌、肱肌和喙肱肌，并提供前臂外侧的感觉。"
+  },
+  "axillary nerve": {
+    "en": "A nerve winding around the surgical neck of the humerus. It innervates the deltoid and teres minor muscles.",
+    "zh": "绕肱骨外科颈走行的神经。支配三角肌和小圆肌。"
+  },
+  "tibial nerve": {
+    "en": "A branch of the sciatic nerve supplying the posterior leg and sole of the foot. It innervates the calf muscles and intrinsic foot muscles.",
+    "zh": "坐骨神经的分支，支配小腿后部和足底。支配小腿肌肉和足底固有肌。"
+  },
+  "common fibular nerve": {
+    "en": "A branch of the sciatic nerve wrapping around the fibular neck. It innervates the anterior and lateral leg muscles for dorsiflexion and eversion.",
+    "zh": "坐骨神经的分支，绕腓骨颈走行。支配小腿前侧和外侧肌肉，负责背屈和外翻。"
+  },
+  "obturator nerve": {
+    "en": "A nerve of the lumbar plexus supplying the medial thigh. It innervates the adductor muscles and provides sensation to the medial thigh.",
+    "zh": "腰丛的神经，支配大腿内侧。支配内收肌群并提供大腿内侧的感觉。"
+  },
+  "phrenic nerve": {
+    "en": "A nerve arising from cervical spinal nerves C3–C5. It is the sole motor supply to the diaphragm, essential for breathing.",
+    "zh": "起自颈神经C3-C5的神经。是膈肌唯一的运动神经供应，对呼吸至关重要。"
+  },
+  "vagus nerve": {
+    "en": "The longest cranial nerve, extending from the brainstem to the abdomen. It regulates heart rate, digestion, and other autonomic functions.",
+    "zh": "最长的脑神经，从脑干延伸至腹部。调节心率、消化和其他自主神经功能。"
+  },
+  "facial nerve": {
+    "en": "The seventh cranial nerve. It controls the muscles of facial expression and carries taste sensation from the anterior tongue.",
+    "zh": "第七脑神经。控制面部表情肌，并传导舌前部的味觉。"
+  },
+  "trigeminal nerve": {
+    "en": "The fifth and largest cranial nerve. It provides sensation to the face and motor innervation to the muscles of mastication.",
+    "zh": "第五脑神经，也是最大的脑神经。提供面部感觉和咀嚼肌的运动神经支配。"
+  },
+  "optic nerve": {
+    "en": "The second cranial nerve carrying visual information from the retina to the brain.",
+    "zh": "第二脑神经，将视网膜的视觉信息传递至大脑。"
+  },
+  "spinal cord": {
+    "en": "The cylindrical bundle of nerve fibers within the vertebral canal. It relays signals between the brain and the body and contains reflex circuits.",
+    "zh": "椎管内的圆柱状神经纤维束。在大脑和身体之间传递信号，并包含反射回路。"
+  },
+  "brachial plexus": {
+    "en": "A network of nerves formed by ventral rami of C5–T1 spinal nerves. It gives rise to the nerves supplying the upper limb.",
+    "zh": "由C5-T1脊神经前支组成的神经网络。产生支配上肢的各条神经。"
+  },
+  "atlas": {
+    "en": "The first cervical vertebra (C1), supporting the skull. It allows the nodding motion of the head.",
+    "zh": "第一颈椎（C1），承托头骨。使头部能够做点头运动。"
+  },
+  "axis": {
+    "en": "The second cervical vertebra (C2), featuring the dens (odontoid process). It allows the head to rotate side to side.",
+    "zh": "第二颈椎（C2），具有齿突。使头部能够左右旋转。"
+  },
+  "inferior oblique": {
+    "en": "A muscle oriented diagonally to the body axis, assisting in complex movements and rotation.",
+    "zh": "相对于身体轴线呈对角线分布的肌肉，协助复杂的运动和旋转。"
+  },
+  "inferior rectus": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "lateral rectus": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "levator palpebrae superioris": {
+    "en": "A muscle that elevates the upper eyelid.",
+    "zh": "上睑提肌，负责提升上眼睑。"
+  },
+  "medial rectus": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "superior oblique": {
+    "en": "A muscle oriented diagonally to the body axis, assisting in complex movements and rotation.",
+    "zh": "相对于身体轴线呈对角线分布的肌肉，协助复杂的运动和旋转。"
+  },
+  "superior rectus": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "first lumbrical of right foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "first lumbrical of left foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "first plantar interosseous of right foot": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "first plantar interosseous of left foot": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "second lumbrical of right foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "second lumbrical of left foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "second plantar interosseous of right foot": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "second plantar interosseous of left foot": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "third lumbrical of right foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "third lumbrical of left foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "third plantar interosseous of right foot": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "third plantar interosseous of left foot": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "fourth lumbrical of right foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "fourth lumbrical of left foot": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "abductor digiti minimi of right foot": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "abductor digiti minimi of left foot": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "flexor digiti minimi brevis of right foot": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor digiti minimi brevis of left foot": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor hallucis brevis": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "adductor hallucis": {
+    "en": "A muscle that moves a limb toward the midline of the body.",
+    "zh": "负责将肢体拉向身体中线的肌肉（内收肌）。"
+  },
+  "opponens digiti minimi of right foot": {
+    "en": "A muscle that brings the little finger or toe in opposition to the thumb/big toe.",
+    "zh": "小指/趾对掌肌，使小指或小趾向对侧屈曲对合。"
+  },
+  "opponens digiti minimi of left foot": {
+    "en": "A muscle that brings the little finger or toe in opposition to the thumb/big toe.",
+    "zh": "小指/趾对掌肌，使小指或小趾向对侧屈曲对合。"
+  },
+  "abductor hallucis": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "adductor brevis": {
+    "en": "A muscle that moves a limb toward the midline of the body.",
+    "zh": "负责将肢体拉向身体中线的肌肉（内收肌）。"
+  },
+  "adductor minimus": {
+    "en": "A muscle that moves a limb toward the midline of the body.",
+    "zh": "负责将肢体拉向身体中线的肌肉（内收肌）。"
+  },
+  "extensor hallucis brevis": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "extensor hallucis longus": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "flexor accessorius": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor digitorum brevis": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor hallucis longus": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "gemellus inferior": {
+    "en": "A deep muscle of the gluteal region that laterally rotates the thigh.",
+    "zh": "臀部深层肌肉，使大腿外旋。"
+  },
+  "gemellus superior": {
+    "en": "A deep muscle of the gluteal region that laterally rotates the thigh.",
+    "zh": "臀部深层肌肉，使大腿外旋。"
+  },
+  "gluteus minimus": {
+    "en": "The smallest gluteal muscle, which abducts and medially rotates the thigh.",
+    "zh": "臀小肌，最小的臀部肌肉，使大腿外展和内旋。"
+  },
+  "iliacus": {
+    "en": "A muscle that acts as a powerful flexor of the hip joint.",
+    "zh": "髂肌或腰大肌，是髋关节的强力屈肌。"
+  },
+  "obturator externus": {
+    "en": "A deep muscle of the gluteal region that laterally rotates the thigh.",
+    "zh": "臀部深层肌肉，使大腿外旋。"
+  },
+  "obturator internus": {
+    "en": "A deep muscle of the gluteal region that laterally rotates the thigh.",
+    "zh": "臀部深层肌肉，使大腿外旋。"
+  },
+  "pectineus": {
+    "en": "A muscle of the thigh that adducts and flexes the hip.",
+    "zh": "大腿耻骨肌，使髋关节内收和屈曲。"
+  },
+  "plantaris": {
+    "en": "A small muscle in the posterior leg that weakly plantarflexes the foot and flexes the knee.",
+    "zh": "小腿后侧的小肌肉，微弱地跖屈脚部和屈曲膝盖。"
+  },
+  "popliteus": {
+    "en": "A muscle at the back of the knee that unlocks the joint by medially rotating the tibia.",
+    "zh": "腘肌，位于膝盖后部，通过使胫骨内旋来解锁膝关节。"
+  },
+  "psoas major": {
+    "en": "A muscle that acts as a powerful flexor of the hip joint.",
+    "zh": "髂肌或腰大肌，是髋关节的强力屈肌。"
+  },
+  "quadratus femoris": {
+    "en": "A deep muscle of the gluteal region that laterally rotates the thigh.",
+    "zh": "臀部深层肌肉，使大腿外旋。"
+  },
+  "coccygeus": {
+    "en": "A muscle of the pelvic floor or perineum that supports pelvic organs and controls continence.",
+    "zh": "骨盆底或会阴部肌肉，支撑盆腔脏器并控制排泄。"
+  },
+  "superficial perineal muscle": {
+    "en": "A muscle of the pelvic floor or perineum that supports pelvic organs and controls continence.",
+    "zh": "骨盆底或会阴部肌肉，支撑盆腔脏器并控制排泄。"
+  },
+  "external anal sphincter": {
+    "en": "A muscle of the pelvic floor or perineum that supports pelvic organs and controls continence.",
+    "zh": "骨盆底或会阴部肌肉，支撑盆腔脏器并控制排泄。"
+  },
+  "external intercostal muscle": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "iliococcygeus": {
+    "en": "A muscle of the pelvic floor or perineum that supports pelvic organs and controls continence.",
+    "zh": "骨盆底或会阴部肌肉，支撑盆腔脏器并控制排泄。"
+  },
+  "innermost intercostal muscle": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "internal intercostal muscle": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "pectoralis minor": {
+    "en": "A thin, triangular muscle of the upper chest that stabilizes the scapula.",
+    "zh": "胸小肌，上胸部的薄三角形肌肉，用于稳定肩胛骨。"
+  },
+  "pubococcygeus": {
+    "en": "A muscle of the pelvic floor or perineum that supports pelvic organs and controls continence.",
+    "zh": "骨盆底或会阴部肌肉，支撑盆腔脏器并控制排泄。"
+  },
+  "puborectalis": {
+    "en": "A muscle of the pelvic floor or perineum that supports pelvic organs and controls continence.",
+    "zh": "骨盆底或会阴部肌肉，支撑盆腔脏器并控制排泄。"
+  },
+  "subclavius": {
+    "en": "A small triangular muscle placed between the clavicle and the first rib.",
+    "zh": "锁骨下肌，位于锁骨与第一肋骨之间的小肌肉，稳定锁骨。"
+  },
+  "transversus thoracis": {
+    "en": "A muscle on the inner surface of the front of the chest that assists in forced expiration.",
+    "zh": "胸横肌，位于胸廓前部内侧，协助用力呼气。"
+  },
+  "set of right levatores costarum breves": {
+    "en": "Small muscles that elevate the ribs during inspiration.",
+    "zh": "肋提肌，在吸气时提升肋骨。"
+  },
+  "set of left levatores costarum breves": {
+    "en": "Small muscles that elevate the ribs during inspiration.",
+    "zh": "肋提肌，在吸气时提升肋骨。"
+  },
+  "set of right levatores costarum longi": {
+    "en": "Small muscles that elevate the ribs during inspiration.",
+    "zh": "肋提肌，在吸气时提升肋骨。"
+  },
+  "set of left levatores costarum longi": {
+    "en": "Small muscles that elevate the ribs during inspiration.",
+    "zh": "肋提肌，在吸气时提升肋骨。"
+  },
+  "abductor digiti minimi of right hand": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "abductor digiti minimi of left hand": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "flexor pollicis brevis": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor digiti minimi brevis of right hand": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor digiti minimi brevis of left hand": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "extensor carpi ulnaris": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "flexor digitorum superficialis": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "adductor pollicis": {
+    "en": "A muscle that moves a limb toward the midline of the body.",
+    "zh": "负责将肢体拉向身体中线的肌肉（内收肌）。"
+  },
+  "opponens digiti minimi of right hand": {
+    "en": "A muscle that brings the little finger or toe in opposition to the thumb/big toe.",
+    "zh": "小指/趾对掌肌，使小指或小趾向对侧屈曲对合。"
+  },
+  "opponens digiti minimi of left hand": {
+    "en": "A muscle that brings the little finger or toe in opposition to the thumb/big toe.",
+    "zh": "小指/趾对掌肌，使小指或小趾向对侧屈曲对合。"
+  },
+  "abductor pollicis brevis": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "abductor pollicis longus": {
+    "en": "A muscle that moves a limb away from the midline of the body.",
+    "zh": "负责将肢体拉离身体中线的肌肉（外展肌）。"
+  },
+  "anconeus": {
+    "en": "A small muscle on the posterior aspect of the elbow that assists in extending the forearm.",
+    "zh": "肘肌，位于肘关节后方的小肌肉，协助伸展前臂。"
+  },
+  "coracobrachialis": {
+    "en": "A muscle in the upper arm that flexes and adducts the arm at the shoulder joint.",
+    "zh": "喙肱肌，位于上臂，在肩关节处屈曲和内收上臂。"
+  },
+  "extensor carpi radialis brevis": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "extensor digiti minimi": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "extensor indicis": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "extensor pollicis brevis": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "extensor pollicis longus": {
+    "en": "A muscle whose contraction extends or straightens a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位伸展或变直的肌肉。"
+  },
+  "flexor digitorum profundus": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "flexor pollicis longus": {
+    "en": "A muscle whose contraction bends a limb or other part of the body.",
+    "zh": "一种收缩时能使肢体或身体其他部位弯曲（屈曲）的肌肉。"
+  },
+  "infraspinatus muscle": {
+    "en": "A rotator cuff muscle below the scapular spine. It laterally rotates the arm and stabilizes the shoulder joint.",
+    "zh": "位于肩胛冈下方的肩袖肌肉。使上臂外旋并稳定肩关节。"
+  },
+  "opponens pollicis": {
+    "en": "A muscle that draws the thumb across the palm in opposition to the fingers.",
+    "zh": "拇指对掌肌，牵拉拇指横越手掌以与其他手指对合。"
+  },
+  "palmaris longus": {
+    "en": "A deep muscle of the neck that assists in neck movement and respiration.",
+    "zh": "颈部深层肌肉，协助颈部运动和呼吸。"
+  },
+  "pronator quadratus": {
+    "en": "A square-shaped muscle on the distal forearm that pronates the hand.",
+    "zh": "旋前方肌，位于前臂远端的方形肌肉，使手旋前。"
+  },
+  "supinator": {
+    "en": "A muscle in the posterior compartment of the forearm that supinates the forearm.",
+    "zh": "旋后肌，位于前臂后区，使前臂旋后。"
+  },
+  "teres major": {
+    "en": "A muscle of the upper limb that medially rotates and adducts the arm.",
+    "zh": "大圆肌，上肢肌肉，使上臂内旋和内收。"
+  },
+  "teres minor": {
+    "en": "A rotator cuff muscle that laterally rotates the arm and stabilizes the shoulder joint.",
+    "zh": "小圆肌/冈下肌，肩袖肌肉之一，使上臂外旋并稳定肩关节。"
+  },
+  "set of dorsal interossei of right hand": {
+    "en": "A muscle that abducts the toes or fingers away from the midline.",
+    "zh": "骨间背侧肌，使脚趾或手指向外展。"
+  },
+  "set of dorsal interossei of left hand": {
+    "en": "A muscle that abducts the toes or fingers away from the midline.",
+    "zh": "骨间背侧肌，使脚趾或手指向外展。"
+  },
+  "set of lumbricals of right hand": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "set of lumbricals of left hand": {
+    "en": "A small muscle of the hand or foot that flexes the proximal joint and extends the distal joints of the digits.",
+    "zh": "手或脚的蚓状肌，屈曲近端指/趾关节并伸展远端指/趾关节。"
+  },
+  "set of palmar interossei of right hand": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "set of palmar interossei of left hand": {
+    "en": "A muscle that adducts the toes or fingers towards the midline of the foot/hand.",
+    "zh": "骨间足底肌或掌侧肌，使脚趾或手指内收向中线。"
+  },
+  "lumbar rotator": {
+    "en": "A muscle that contributes to the rotational movement of a joint.",
+    "zh": "负责关节旋转运动的肌肉。"
+  },
+  "cervical rotator": {
+    "en": "A muscle that contributes to the rotational movement of a joint.",
+    "zh": "负责关节旋转运动的肌肉。"
+  },
+  "thoracic rotator": {
+    "en": "A muscle that contributes to the rotational movement of a joint.",
+    "zh": "负责关节旋转运动的肌肉。"
+  },
+  "iliocostalis cervicis": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "iliocostalis lumborum": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "iliocostalis thoracis": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "longissimus capitis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "longissimus cervicis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "longissimus thoracis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "rhomboid minor": {
+    "en": "A back muscle that connects the scapula with the vertebrae of the spinal column and retracts the scapula.",
+    "zh": "菱形肌，连接肩胛骨与脊柱的背部肌肉，负责回缩肩胛骨。"
+  },
+  "semispinalis capitis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "semispinalis cervicis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "semispinalis thoracis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "serratus posterior inferior": {
+    "en": "A deep muscle of the back that assists in the mechanics of breathing.",
+    "zh": "后锯肌，背部深层肌肉，协助呼吸运动。"
+  },
+  "serratus posterior superior": {
+    "en": "A deep muscle of the back that assists in the mechanics of breathing.",
+    "zh": "后锯肌，背部深层肌肉，协助呼吸运动。"
+  },
+  "spinalis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "spinalis thoracis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "splenius capitis": {
+    "en": "A muscle in the back of the neck that extends and rotates the head and neck.",
+    "zh": "夹肌，位于颈后，伸展和旋转头颈部。"
+  },
+  "splenius cervicis": {
+    "en": "A muscle in the back of the neck that extends and rotates the head and neck.",
+    "zh": "夹肌，位于颈后，伸展和旋转头颈部。"
+  },
+  "lateral lumbar intertransversarius": {
+    "en": "A small, deep muscle of the spine or suboccipital region that stabilizes and adjusts the vertebrae.",
+    "zh": "脊柱或枕下区深层的小肌肉，用于稳定和微调椎骨位置。"
+  },
+  "medial lumbar intertransversarius": {
+    "en": "A small, deep muscle of the spine or suboccipital region that stabilizes and adjusts the vertebrae.",
+    "zh": "脊柱或枕下区深层的小肌肉，用于稳定和微调椎骨位置。"
+  },
+  "set of anterior cervical intertransversarii": {
+    "en": "A structural component of the human anatomy contributing to support, movement, or physiological function.",
+    "zh": "人体解剖学的结构成分，有助于支撑、运动或生理功能。"
+  },
+  "set of interspinales lumborum": {
+    "en": "A small, deep muscle of the spine or suboccipital region that stabilizes and adjusts the vertebrae.",
+    "zh": "脊柱或枕下区深层的小肌肉，用于稳定和微调椎骨位置。"
+  },
+  "interspinalis thoracis": {
+    "en": "A muscle of the erector spinae group that extends and laterally flexes the vertebral column.",
+    "zh": "竖脊肌群的一部分，负责脊柱的伸展和侧屈。"
+  },
+  "set of interspinales cervicis": {
+    "en": "A small, deep muscle of the spine or suboccipital region that stabilizes and adjusts the vertebrae.",
+    "zh": "脊柱或枕下区深层的小肌肉，用于稳定和微调椎骨位置。"
+  },
+  "set of posterior cervical intertransversarii": {
+    "en": "A structural component of the human anatomy contributing to support, movement, or physiological function.",
+    "zh": "人体解剖学的结构成分，有助于支撑、运动或生理功能。"
+  },
+  "digastric": {
+    "en": "A small muscle located under the jaw that acts to elevate the hyoid bone or depress the mandible.",
+    "zh": "位于下颌下方的两腹小肌，起提升舌骨或降下颌骨的作用。"
+  },
+  "longus colli": {
+    "en": "A deep muscle of the neck that assists in neck movement and respiration.",
+    "zh": "颈部深层肌肉，协助颈部运动和呼吸。"
+  },
+  "geniohyoid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "longus capitis": {
+    "en": "A deep muscle of the neck that assists in neck movement and respiration.",
+    "zh": "颈部深层肌肉，协助颈部运动和呼吸。"
+  },
+  "mylohyoid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "obliquus capitis inferior": {
+    "en": "A small, deep muscle of the spine or suboccipital region that stabilizes and adjusts the vertebrae.",
+    "zh": "脊柱或枕下区深层的小肌肉，用于稳定和微调椎骨位置。"
+  },
+  "obliquus capitis superior": {
+    "en": "A small, deep muscle of the spine or suboccipital region that stabilizes and adjusts the vertebrae.",
+    "zh": "脊柱或枕下区深层的小肌肉，用于稳定和微调椎骨位置。"
+  },
+  "omohyoid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "rectus capitis anterior": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "rectus capitis posterior major": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "rectus capitis posterior minor": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "rectus capitis lateralis": {
+    "en": "A straight muscle that controls movement, typically found in the abdomen or eye.",
+    "zh": "通常位于腹部或眼部的直肌，控制特定的直线运动。"
+  },
+  "scalenus anterior": {
+    "en": "A deep muscle of the neck that assists in neck movement and respiration.",
+    "zh": "颈部深层肌肉，协助颈部运动和呼吸。"
+  },
+  "scalenus medius": {
+    "en": "A deep muscle of the neck that assists in neck movement and respiration.",
+    "zh": "颈部深层肌肉，协助颈部运动和呼吸。"
+  },
+  "scalenus posterior": {
+    "en": "A deep muscle of the neck that assists in neck movement and respiration.",
+    "zh": "颈部深层肌肉，协助颈部运动和呼吸。"
+  },
+  "sternohyoid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "sternothyroid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "stylohyoid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "thyrohyoid": {
+    "en": "A muscle of the neck that acts on the hyoid bone and larynx during swallowing and speaking.",
+    "zh": "颈部肌肉，在吞咽和说话时作用于舌骨和喉部。"
+  },
+  "lateral papillary muscle of left ventricle": {
+    "en": "A muscle located in the ventricles of the heart that attaches to the valves to prevent inversion.",
+    "zh": "位于心脏心室的肌肉，附着在瓣膜上以防止瓣膜翻转。"
+  },
+  "anterior papillary muscle of right ventricle": {
+    "en": "A muscle located in the ventricles of the heart that attaches to the valves to prevent inversion.",
+    "zh": "位于心脏心室的肌肉，附着在瓣膜上以防止瓣膜翻转。"
+  },
+  "posterior papillary muscle of right ventricle": {
+    "en": "A muscle located in the ventricles of the heart that attaches to the valves to prevent inversion.",
+    "zh": "位于心脏心室的肌肉，附着在瓣膜上以防止瓣膜翻转。"
+  },
+  "septal papillary muscle of right ventricle": {
+    "en": "A muscle located in the ventricles of the heart that attaches to the valves to prevent inversion.",
+    "zh": "位于心脏心室的肌肉，附着在瓣膜上以防止瓣膜翻转。"
+  },
+  "genioglossus": {
+    "en": "An extrinsic muscle of the tongue that controls its position and movement.",
+    "zh": "舌外在肌，控制舌头的位置和运动。"
+  },
+  "hyoglossus": {
+    "en": "An extrinsic muscle of the tongue that controls its position and movement.",
+    "zh": "舌外在肌，控制舌头的位置和运动。"
+  },
+  "levator veli palatini": {
+    "en": "A muscle of the soft palate that functions during swallowing.",
+    "zh": "软腭肌肉，在吞咽过程中起作用。"
+  },
+  "tensor veli palatini": {
+    "en": "A muscle of the soft palate that functions during swallowing.",
+    "zh": "软腭肌肉，在吞咽过程中起作用。"
+  },
+  "uvular muscle": {
+    "en": "A muscle of the soft palate that functions during swallowing.",
+    "zh": "软腭肌肉，在吞咽过程中起作用。"
+  },
+  "aryepiglotticus": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "lateral crico-arytenoid": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "oblique arytenoid": {
+    "en": "A muscle oriented diagonally to the body axis, assisting in complex movements and rotation.",
+    "zh": "相对于身体轴线呈对角线分布的肌肉，协助复杂的运动和旋转。"
+  },
+  "cricothyroid": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "posterior crico-arytenoid": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "thyro-arytenoid": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "vocalis": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "transverse arytenoid": {
+    "en": "A muscle of the larynx that controls the vocal cords for phonation and protects the airway.",
+    "zh": "喉部肌肉，控制声带进行发声并保护气道。"
+  },
+  "gingiva of upper jaw": {
+    "en": "The gums, consisting of mucosal tissue that lies over the mandible and maxilla inside the mouth.",
+    "zh": "牙龈，覆盖在口腔内上下颌骨上的黏膜组织。"
+  },
+  "gingiva of lower jaw": {
+    "en": "The gums, consisting of mucosal tissue that lies over the mandible and maxilla inside the mouth.",
+    "zh": "牙龈，覆盖在口腔内上下颌骨上的黏膜组织。"
+  },
+  "lower first secondary molar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "lower first secondary premolar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "lower second secondary molar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "lower second secondary premolar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "lower central secondary incisor tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "lower lateral secondary incisor tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "lower secondary canine tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper first secondary molar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper first secondary premolar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper second secondary molar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper second secondary premolar tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper central secondary incisor tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper lateral secondary incisor tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "upper secondary canine tooth": {
+    "en": "A hard, calcified structure in the jaws used to break down food.",
+    "zh": "位于颌部的坚硬钙化结构，用于咀嚼和分解食物。"
+  },
+  "fibularis tertius": {
+    "en": "A muscle of the lower leg that dorsiflexes and everts the foot.",
+    "zh": "第三腓骨肌，小腿肌肉，使足背屈和外翻。"
+  },
+  "iliotibial tract": {
+    "en": "A longitudinal band of connective tissue on the lateral side of the thigh that stabilizes the knee.",
+    "zh": "髂胫束，位于大腿外侧的纵向结缔组织带，稳定膝关节。"
+  },
+  "tibialis posterior": {
+    "en": "A muscle of the lower leg that is the primary inverter and plantarflexor of the foot.",
+    "zh": "胫骨后肌，小腿肌肉，是足部主要的内翻和跖屈肌。"
+  },
+  "subscapularis": {
+    "en": "A large rotator cuff muscle that medially rotates the head of the humerus.",
+    "zh": "肩胛下肌，大型肩袖肌肉，使肱骨头内旋。"
+  },
+  "cricoid cartilage": {
+    "en": "A flexible connective tissue that provides structural support and cushioning.",
+    "zh": "一种柔软的结缔组织，提供结构支撑和缓冲作用。"
+  },
+  "major alar cartilage": {
+    "en": "A flexible connective tissue that provides structural support and cushioning.",
+    "zh": "一种柔软的结缔组织，提供结构支撑和缓冲作用。"
+  },
+  "hyoid bone": {
+    "en": "A horseshoe-shaped bone situated in the anterior midline of the neck between the chin and the thyroid cartilage.",
+    "zh": "舌骨，位于颈前中线，下巴和甲状软骨之间的马蹄形骨骼。"
+  },
+  "cuneiform cartilage": {
+    "en": "A flexible connective tissue that provides structural support and cushioning.",
+    "zh": "一种柔软的结缔组织，提供结构支撑和缓冲作用。"
+  },
+  "arytenoid cartilage": {
+    "en": "A flexible connective tissue that provides structural support and cushioning.",
+    "zh": "一种柔软的结缔组织，提供结构支撑和缓冲作用。"
+  },
+  "corniculate cartilage": {
+    "en": "A flexible connective tissue that provides structural support and cushioning.",
+    "zh": "一种柔软的结缔组织，提供结构支撑和缓冲作用。"
+  },
+  "thyroid cartilage": {
+    "en": "A flexible connective tissue that provides structural support and cushioning.",
+    "zh": "一种柔软的结缔组织，提供结构支撑和缓冲作用。"
+  },
+  "hip bone": {
+    "en": "A large irregular bone, composed of the ilium, ischium, and pubis, that forms the pelvis.",
+    "zh": "髋骨，由髂骨、坐骨和耻骨组成的大型不规则骨，构成骨盆。"
+  },
+  "xiphoid process": {
+    "en": "A section of the sternum (breastbone) located in the center of the chest.",
+    "zh": "胸骨（胸板）的一部分，位于胸部中央。"
+  },
+  "tenth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "eleventh thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "twelfth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "first lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "first thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "second lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "second thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "third cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "third lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "third thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "fourth cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "fourth lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "fourth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "fifth cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "fifth lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "fifth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "sixth cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "sixth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "seventh cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "seventh thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "eighth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "ninth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "body of sternum": {
+    "en": "A section of the sternum (breastbone) located in the center of the chest.",
+    "zh": "胸骨（胸板）的一部分，位于胸部中央。"
+  },
+  "distal phalanx of left second toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left third toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left fourth toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left big toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left index finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left little finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left little toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left middle finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left ring finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of left thumb": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right second toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right third toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right fourth toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right big toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right index finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right little finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right little toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right middle finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right ring finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "distal phalanx of right thumb": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "ethmoid": {
+    "en": "A bone of the skull or face that forms structures such as the nasal cavity, orbit, or cheek.",
+    "zh": "构成鼻腔、眼眶或脸颊等结构的颅骨或面骨。"
+  },
+  "frontal bone": {
+    "en": "The bone that forms the front part of the skull and the upper part of the eye sockets.",
+    "zh": "构成头骨前部和眼眶上部的骨骼（额骨）。"
+  },
+  "intervertebral disk of axis": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of fourth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of fifth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of sixth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of seventh thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of eighth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of ninth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of tenth thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of eleventh thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of first lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of third cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of second lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of third lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of fourth lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of fifth lumbar vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of fourth cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of fifth cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of sixth cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of seventh cervical vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of first thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of second thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "intervertebral disk of third thoracic vertebra": {
+    "en": "One of the individual bones of the spinal column, protecting the spinal cord and supporting the body.",
+    "zh": "脊柱的单个骨骼之一，保护脊髓并支撑身体。"
+  },
+  "tenth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "eleventh rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "twelfth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "first rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "second rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "third rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "fourth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "fifth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "sixth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "seventh rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "eighth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "ninth rib": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "first costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "first metacarpal bone": {
+    "en": "A bone of the palm of the hand, connecting the wrist to the fingers.",
+    "zh": "手掌的骨骼，连接手腕和手指。"
+  },
+  "first metatarsal bone": {
+    "en": "A bone of the mid-foot, connecting the ankle to the toes.",
+    "zh": "中足的骨骼，连接脚踝和脚趾。"
+  },
+  "second costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "second metacarpal bone": {
+    "en": "A bone of the palm of the hand, connecting the wrist to the fingers.",
+    "zh": "手掌的骨骼，连接手腕和手指。"
+  },
+  "second metatarsal bone": {
+    "en": "A bone of the mid-foot, connecting the ankle to the toes.",
+    "zh": "中足的骨骼，连接脚踝和脚趾。"
+  },
+  "third costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "third metacarpal bone": {
+    "en": "A bone of the palm of the hand, connecting the wrist to the fingers.",
+    "zh": "手掌的骨骼，连接手腕和手指。"
+  },
+  "third metatarsal bone": {
+    "en": "A bone of the mid-foot, connecting the ankle to the toes.",
+    "zh": "中足的骨骼，连接脚踝和脚趾。"
+  },
+  "fourth costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "fourth metacarpal bone": {
+    "en": "A bone of the palm of the hand, connecting the wrist to the fingers.",
+    "zh": "手掌的骨骼，连接手腕和手指。"
+  },
+  "fourth metatarsal bone": {
+    "en": "A bone of the mid-foot, connecting the ankle to the toes.",
+    "zh": "中足的骨骼，连接脚踝和脚趾。"
+  },
+  "fifth costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "fifth metacarpal bone": {
+    "en": "A bone of the palm of the hand, connecting the wrist to the fingers.",
+    "zh": "手掌的骨骼，连接手腕和手指。"
+  },
+  "fifth metatarsal bone": {
+    "en": "A bone of the mid-foot, connecting the ankle to the toes.",
+    "zh": "中足的骨骼，连接脚踝和脚趾。"
+  },
+  "sixth costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "seventh costal cartilage": {
+    "en": "One of the curved bones that form the rib cage, protecting the heart and lungs.",
+    "zh": "构成胸廓的弯曲骨骼之一，负责保护心脏和肺部。"
+  },
+  "calcaneus": {
+    "en": "The large bone forming the heel of the foot.",
+    "zh": "构成脚跟的大型骨骼（跟骨）。"
+  },
+  "capitate": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "cuboid bone": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "hamate": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "intermediate cuneiform bone": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "sesamoid bone of left foot": {
+    "en": "A small, round bone embedded within a tendon to modify pressure and reduce friction.",
+    "zh": "籽骨，嵌入在肌腱中的圆形小骨，用于改变压力并减少摩擦。"
+  },
+  "lateral cuneiform bone": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "lunate": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "maxilla": {
+    "en": "The upper jawbone formed from the fusion of two maxillary bones.",
+    "zh": "由两块上颌骨融合而成的上颌骨。"
+  },
+  "medial cuneiform bone": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "nasal bone": {
+    "en": "A bone of the skull or face that forms structures such as the nasal cavity, orbit, or cheek.",
+    "zh": "构成鼻腔、眼眶或脸颊等结构的颅骨或面骨。"
+  },
+  "palatine bone": {
+    "en": "A bone of the skull or face that forms structures such as the nasal cavity, orbit, or cheek.",
+    "zh": "构成鼻腔、眼眶或脸颊等结构的颅骨或面骨。"
+  },
+  "parietal bone": {
+    "en": "One of the two bones forming the central side and upper back part of each side of the skull.",
+    "zh": "构成头骨两侧中部和后上部的骨骼（顶骨）。"
+  },
+  "pisiform": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "scaphoid": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "talus": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "temporal bone": {
+    "en": "A bone forming part of the side and base of the skull, housing the hearing organs.",
+    "zh": "构成头骨侧面和底部的一部分骨骼，内含听觉器官（颞骨）。"
+  },
+  "trapezium": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "trapezoid": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "triquetral": {
+    "en": "One of the eight carpal bones that form the wrist.",
+    "zh": "腕骨之一，构成手腕。"
+  },
+  "zygomatic bone": {
+    "en": "A bone of the skull or face that forms structures such as the nasal cavity, orbit, or cheek.",
+    "zh": "构成鼻腔、眼眶或脸颊等结构的颅骨或面骨。"
+  },
+  "manubrium": {
+    "en": "A section of the sternum (breastbone) located in the center of the chest.",
+    "zh": "胸骨（胸板）的一部分，位于胸部中央。"
+  },
+  "middle phalanx of left ring finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right ring finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left second toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left third toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left fourth toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left index finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left little finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left little toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of left middle finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right second toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right third toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right fourth toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right index finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right little finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right little toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "middle phalanx of right middle finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "navicular bone of left foot": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "navicular bone of right foot": {
+    "en": "A tarsal bone of the foot, helping to form the ankle or arch.",
+    "zh": "足部的跗骨，帮助构成脚踝或足弓。"
+  },
+  "occipital bone": {
+    "en": "The saucer-shaped membrane bone that forms the back and lower part of the skull.",
+    "zh": "构成头骨后部和底部的骨骼（枕骨）。"
+  },
+  "proximal phalanx of right big toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left third toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left fourth toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left index finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left little finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left little toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left middle finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left ring finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left thumb": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right second toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right third toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right fourth toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right index finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right little finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right little toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right middle finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right ring finger": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of right thumb": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left second toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "proximal phalanx of left big toe": {
+    "en": "A bone of the finger or toe, providing structure and support for digit movement.",
+    "zh": "构成手指或脚趾的骨骼，为指/趾的运动提供结构和支撑。"
+  },
+  "sesamoid bone of right foot": {
+    "en": "A small, round bone embedded within a tendon to modify pressure and reduce friction.",
+    "zh": "籽骨，嵌入在肌腱中的圆形小骨，用于改变压力并减少摩擦。"
+  },
+  "sphenoid bone": {
+    "en": "A bone of the skull or face that forms structures such as the nasal cavity, orbit, or cheek.",
+    "zh": "构成鼻腔、眼眶或脸颊等结构的颅骨或面骨。"
+  },
+  "vomer": {
+    "en": "A bone of the skull or face that forms structures such as the nasal cavity, orbit, or cheek.",
+    "zh": "构成鼻腔、眼眶或脸颊等结构的颅骨或面骨。"
+  }
+}
