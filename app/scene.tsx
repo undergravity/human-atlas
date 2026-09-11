@@ -60,22 +60,56 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
   const mats=new Map(SYSTEMS.map(s=>[s.id,materialFor(s.id)]));
   let loaded=0;
   const loadChunk=async(ci:number)=>{
-   const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';const response=await fetch(compressed?chunk.gzip!:chunk.url,{signal:abort.signal});const buffer=await decodeModelResponse(response,chunk.bytes,compressed);if(disposed)return;
+   const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';
+   const response=await fetch(compressed?chunk.gzip!:chunk.url,{signal:abort.signal});
+   const buffer=await decodeModelResponse(response,chunk.bytes,compressed);
+   if(disposed)return;
    const groups=new Map<string,T.BufferGeometry[]>();
    atlas.parts.forEach((p,i)=>{
     if(p.chunk!==ci)return;
     const g=new T.BufferGeometry();g.setAttribute('position',new T.BufferAttribute(new Float32Array(buffer,p.positions,p.vertexCount*3),3));
-    // GPU normalized signed-short normals keep the complete atlas compact in memory.
     g.setAttribute('normal',new T.BufferAttribute(new Int16Array(buffer,p.normals,p.vertexCount*3),3,true));g.setIndex(new T.BufferAttribute(new Uint32Array(buffer,p.indices,p.indexCount),1));
     g.boundingBox=bounds[i].clone();g.computeBoundingSphere();const pick=new T.Mesh(g);pick.matrixAutoUpdate=false;pickers[i]=pick;geometries.push(g);
     g.setAttribute('partIndex',new T.BufferAttribute(new Float32Array(p.vertexCount).fill(i),1));
     const list=groups.get(p.system)??[];list.push(g);groups.set(p.system,list);
    });
    groups.forEach((gs,system)=>{const geometry=mergeGeometries(gs,false);if(!geometry)throw new Error('Could not assemble anatomy geometry.');geometries.push(geometry);const mesh=new T.Mesh(geometry,mats.get(system as never));mesh.frustumCulled=false;scene.add(mesh);});
-   lastState=null;loaded++;onProgress(Math.round(loaded/atlas.chunks.length*100));dirty=true;
+   lastState=null;loaded++;dirty=true;
   };
-   const priorityChunks=new Set<number>();atlas.parts.forEach(p=>{if(p.system==='skeletal'||p.system==='muscular')priorityChunks.add(p.chunk);});const orderedChunks=Array.from(priorityChunks);for(let i=0;i<atlas.chunks.length;i++){if(!priorityChunks.has(i))orderedChunks.push(i);}
-   (async()=>{try{let cursor=0;await Promise.all(Array.from({length:3},async()=>{while(cursor<orderedChunks.length){const i=orderedChunks[cursor++];await loadChunk(i);}}));if(!disposed){ready=true;dirty=true;}}catch(e){if(!disposed)onError(e instanceof Error?e.message:'Could not load the anatomy.');}})();
+
+  (async()=>{
+     try {
+         const priorityChunks = new Set<number>();
+         atlas.parts.forEach(p=>{if(p.system==='skeletal'||p.system==='muscular')priorityChunks.add(p.chunk);});
+         const orderedChunks = Array.from(priorityChunks);
+         const remainingChunks: number[] = [];
+         for(let i=0;i<atlas.chunks.length;i++){if(!priorityChunks.has(i))remainingChunks.push(i);}
+         
+         let cursor = 0;
+         await Promise.all(Array.from({length:3}, async() => {
+             while(cursor < orderedChunks.length) {
+                 const i = orderedChunks[cursor++];
+                 await loadChunk(i);
+                 if(!disposed) onProgress(Math.round((loaded / orderedChunks.length) * 100));
+             }
+         }));
+         
+         if (!disposed) {
+             ready = true;
+             dirty = true;
+         }
+         
+         cursor = 0;
+         await Promise.all(Array.from({length:3}, async() => {
+             while(cursor < remainingChunks.length) {
+                 const i = remainingChunks[cursor++];
+                 await loadChunk(i);
+             }
+         }));
+     } catch(e) {
+         if(!disposed)onError(e instanceof Error?e.message:'Could not load the anatomy.');
+     }
+  })();
   const fit=(view:string,extent=0)=>{
    const aspect=camera.aspect,mobile=el.clientWidth<768,normalDistance=mobile?Math.max(4.5,1.8*el.clientHeight/Math.max(160,el.clientHeight-350)/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2)))):4;
    const reservedHeight=mobile?350:270;const availableAspect=Math.max(.35,(el.clientWidth-(mobile?40:340))/Math.max(160,el.clientHeight-reservedHeight));const atlasDistance=Math.max(packingHeight,packingWidth/availableAspect)/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2)))*(el.clientHeight/Math.max(160,el.clientHeight-reservedHeight))*1.08;
