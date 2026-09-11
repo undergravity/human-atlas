@@ -21,7 +21,7 @@ export interface Concept {id:string;name:string;nameZh?:string;elements:string[]
 export interface Atlas {version:string;sex?:'male';source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
 export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;hidden?:string[];view:View;rotate:boolean;reset:number}
-export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
+export const DEFAULT_VISIBLE:SystemId[] = ['skeletal','muscular'];
 import EXPLANATIONS_DATA from './explanations.json';
 export const EXPLANATIONS = EXPLANATIONS_DATA as Record<string, {en:string;zh:string}>;
 export function explanation(name:string,system:SystemId,lang:'en'|'zh'='en'){

@@ -24,7 +24,7 @@ export default function Home(){
     if (typeof window !== 'undefined') {
         const saved = localStorage.getItem('atlas_theme');
         if (saved === 'dark' || saved === 'light') return saved;
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark';
+        return 'dark';
     }
     return 'dark';
 });
@@ -34,7 +34,6 @@ useEffect(() => {
         localStorage.setItem('atlas_theme', theme);
     }
 }, [theme]);
- useEffect(()=>{const media=window.matchMedia('(prefers-color-scheme: dark)');setTheme(media.matches?'dark':'light');const updateTheme=(e:MediaQueryListEvent)=>setTheme(e.matches?'dark':'light');media.addEventListener('change',updateTheme);return()=>media.removeEventListener('change',updateTheme);},[]);
  useEffect(()=>{if(theme==='dark')document.documentElement.classList.add('dark');else document.documentElement.classList.remove('dark');},[theme]);
  useEffect(()=>{localStorage.setItem('atlas_visible_systems',JSON.stringify(state.visible));},[state.visible]);
  useEffect(()=>{const abort=new AbortController();setProgress(0);setError('');setAtlas(null);setChosen(null);setDetails(false);fetch('/models/atlas.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>{const atl=data as Atlas;atl.concepts.forEach(c=>{if(DICT[c.name.toLowerCase()])c.nameZh=DICT[c.name.toLowerCase()]});atl.parts.forEach(p=>{if(DICT[p.name.toLowerCase()])p.nameZh=DICT[p.name.toLowerCase()]});setAtlas(atl);}).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[]);
