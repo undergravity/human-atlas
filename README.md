@@ -12,7 +12,7 @@
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+**[Explore the live demo](https://human-atlas-2s7.pages.dev)**
 
 ### 🌟 New Features in this Fork
 
@@ -94,7 +94,7 @@ Issues and pull requests are welcome. Please include reproduction steps and brow
 
 这是一个使用 React、Three.js 和 shadcn/ui 构建的交互式 3D 解剖学探索工具。您可以将 BodyParts3D 的成年男性参考模型拆解为 **2,234 个可独立选择的网格**，探索 **15 个解剖系统**，并搜索 **3,432 个命名概念**。
 
-**[体验在线演示](https://human-atlas-seven.vercel.app)**
+**[体验在线演示](https://human-atlas-2s7.pages.dev)**
 
 ### 🌟 本分支新增功能
 
