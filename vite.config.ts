@@ -14,17 +14,17 @@ export default defineConfig({
     VitePWA({ 
       registerType: 'autoUpdate', 
       includeAssets: ['favicon.svg'], 
-      manifest: { 
-        name: 'Human Atlas 3D', 
-        short_name: 'Atlas', 
-        description: 'Interactive 3D Anatomy Atlas', 
-        theme_color: '#0a0f14', 
-        background_color: '#0a0f14', 
-        icons: [
-          { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' }, 
-          { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png' }, 
-          { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' }
-        ] 
+      manifest: false,
+      workbox: {
+        runtimeCaching: [{
+          urlPattern: /^\/models\/.*\.(draco|json)$/,
+          handler: 'CacheFirst',
+          options: {
+            cacheName: 'models-cache',
+            expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
+            cacheableResponse: { statuses: [0, 200] }
+          }
+        }]
       },
       devOptions: {
         enabled: true
