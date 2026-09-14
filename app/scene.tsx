@@ -62,7 +62,7 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
   let loaded=0;
   const loadChunk=async(ci:number)=>{
    const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
-   const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined'&&!isCapacitor;
+   const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';
    const response=await fetch(compressed?chunk.gzip!:chunk.url,{signal:abort.signal});
    const buffer=await decodeModelResponse(response,chunk.bytes,compressed);
    if(disposed)return;
