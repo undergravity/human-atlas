@@ -54,7 +54,7 @@ useEffect(() => {
  const handleInstall = () => {
    if (getDeviceType() === 'android') {
      const link = document.createElement('a');
-     link.href = '/HumanAtlas.apk';
+     link.href = 'https://pub-a1ad7ac347d14bcd8412ac216833d9f9.r2.dev/HumanAtlas.apk';
      link.download = 'HumanAtlas.apk';
      document.body.appendChild(link);
      link.click();
