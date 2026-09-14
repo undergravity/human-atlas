@@ -40,3 +40,7 @@ next-env.d.ts
 /outputs/
 /work/
 *.tsbuildinfo
+
+# Android files
+*.apk
+*.keystore

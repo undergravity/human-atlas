@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Anatomy Studio</string>
+    <string name="title_activity_main">Anatomy Studio</string>
+    <string name="package_name">com.humanatlas.app</string>
+    <string name="custom_url_scheme">com.humanatlas.app</string>
+</resources>
