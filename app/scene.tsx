@@ -63,7 +63,13 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
   const loadChunk=async(ci:number)=>{
    const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
    const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';
-   const response=await fetch(compressed?chunk.gzip!:chunk.url,{signal:abort.signal});
+   
+   const isChina = new Date().getTimezoneOffset() === -480;
+   const ossBaseUrl = 'https://YOUR_OSS_DOMAIN_HERE';
+   const basePath = (isChina && !isCapacitor) ? ossBaseUrl : '';
+   const chunkUrl = basePath + (compressed ? chunk.gzip! : chunk.url);
+   
+   const response=await fetch(chunkUrl,{signal:abort.signal});
    const buffer=await decodeModelResponse(response,chunk.bytes,compressed);
    if(disposed)return;
    const groups=new Map<string,T.BufferGeometry[]>();
