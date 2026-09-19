@@ -36,7 +36,13 @@ useEffect(() => {
 }, [theme]);
  useEffect(()=>{if(theme==='dark')document.documentElement.classList.add('dark');else document.documentElement.classList.remove('dark');},[theme]);
  useEffect(()=>{localStorage.setItem('atlas_visible_systems',JSON.stringify(state.visible));},[state.visible]);
- useEffect(()=>{const abort=new AbortController();setProgress(0);setError('');setAtlas(null);setChosen(null);setDetails(false);fetch(import.meta.env.BASE_URL+'models/atlas.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>{const atl=data as Atlas;atl.concepts.forEach(c=>{if(DICT[c.name.toLowerCase()])c.nameZh=DICT[c.name.toLowerCase()]});atl.parts.forEach(p=>{if(DICT[p.name.toLowerCase()])p.nameZh=DICT[p.name.toLowerCase()]});setAtlas(atl);}).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[]);
+ useEffect(()=>{const abort=new AbortController();setProgress(0);setError('');setAtlas(null);setChosen(null);setDetails(false);
+  const isChina = new Date().getTimezoneOffset() === -480;
+  const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
+  const ossBaseUrl = 'https://cdn.jsdelivr.net/gh/undergravity/human-atlas@main/public';
+  const basePath = (isChina && !isCapacitor) ? ossBaseUrl : import.meta.env.BASE_URL.replace(/\/$/, '');
+  const atlasUrl = basePath + '/models/atlas.json';
+  fetch(atlasUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>{const atl=data as Atlas;atl.concepts.forEach(c=>{if(DICT[c.name.toLowerCase()])c.nameZh=DICT[c.name.toLowerCase()]});atl.parts.forEach(p=>{if(DICT[p.name.toLowerCase()])p.nameZh=DICT[p.name.toLowerCase()]});setAtlas(atl);}).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[]);
  useEffect(()=>{const key=(e:KeyboardEvent)=>{if(e.key==='/'&&!(e.target instanceof HTMLInputElement)&&!(e.target instanceof HTMLTextAreaElement)){e.preventDefault();setPanel('search');setDetails(false);}};window.addEventListener('keydown',key);return()=>window.removeEventListener('keydown',key);},[]);
  const parts=useMemo(()=>new Map(atlas?.parts.map(p=>[p.id,p])),[atlas]);
  const counts=useMemo(()=>Object.fromEntries(SYSTEMS.map(s=>[s.id,atlas?.parts.filter(p=>p.system===s.id).length??0])),[atlas]);

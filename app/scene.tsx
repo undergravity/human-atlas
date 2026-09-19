@@ -64,7 +64,10 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
    const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
    const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';
    
-   const chunkUrl = import.meta.env.BASE_URL + (compressed ? chunk.gzip! : chunk.url).replace(/^\/+/, '');
+   const isChina = new Date().getTimezoneOffset() === -480;
+   const ossBaseUrl = 'https://cdn.jsdelivr.net/gh/undergravity/human-atlas@main/public';
+   const basePath = (isChina && !isCapacitor) ? ossBaseUrl : import.meta.env.BASE_URL.replace(/\/$/, '');
+   const chunkUrl = basePath + '/' + (compressed ? chunk.gzip! : chunk.url).replace(/^\/+/, '');
    
    const response=await fetch(chunkUrl,{signal:abort.signal});
    const buffer=await decodeModelResponse(response,chunk.bytes,compressed);
