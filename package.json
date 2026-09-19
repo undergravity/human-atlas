@@ -9,7 +9,8 @@
     "dev": "vite --host 0.0.0.0 --port 3016",
     "build": "vite build",
     "build:vercel": "vite build",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "deploy": "gh-pages -d dist -b gitee-pages -r https://gitee.com/lemonade-kill/human-atlas.git"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
@@ -48,6 +49,7 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
     "@vitejs/plugin-rsc": "0.5.26",
+    "gh-pages": "^6.3.0",
     "meshoptimizer": "^1.2.0",
     "oxfmt": "0.61.0",
     "oxlint": "1.76.0",
