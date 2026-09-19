@@ -65,7 +65,7 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
    const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';
    
    const isChina = new Date().getTimezoneOffset() === -480;
-   const ossBaseUrl = 'https://YOUR_OSS_DOMAIN_HERE';
+   const ossBaseUrl = 'https://lemonade-kill.gitee.io/human-atlas/public';
    const basePath = (isChina && !isCapacitor) ? ossBaseUrl : '';
    const chunkUrl = basePath + (compressed ? chunk.gzip! : chunk.url);
    
