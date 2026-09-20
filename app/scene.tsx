@@ -62,7 +62,8 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
   let loaded=0;
   const loadChunk=async(ci:number)=>{
    const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
-   const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';
+   const chunk = atlas.chunks[ci];
+   const compressed = !isCapacitor && !!chunk.gzip && typeof DecompressionStream !== 'undefined';
    
    const isChina = new Date().getTimezoneOffset() === -480;
    const ossBaseUrl = 'https://cdn.jsdelivr.net/gh/undergravity/human-atlas@main/public';

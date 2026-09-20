@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3016",
-    "build": "tsc -b && vite build && node -e \"const fs=require('fs');fs.readdirSync('dist/models').filter(f=>f.endsWith('.bin')).forEach(f=>fs.unlinkSync('dist/models/'+f))\"",
+    "build": "tsc -b && vite build && node -e \"const fs=require('fs');fs.readdirSync('dist/models').filter(f=>f.endsWith('.bin.gz')).forEach(f=>fs.unlinkSync('dist/models/'+f))\"",
     "build:vercel": "vite build",
     "check": "tsc --noEmit",
     "deploy": "gh-pages -d dist -b gitee-pages -r https://gitee.com/lemonade-kill/human-atlas.git"
