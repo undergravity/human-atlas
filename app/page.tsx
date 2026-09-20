@@ -37,7 +37,8 @@ useEffect(() => {
  useEffect(()=>{if(theme==='dark')document.documentElement.classList.add('dark');else document.documentElement.classList.remove('dark');},[theme]);
  useEffect(()=>{localStorage.setItem('atlas_visible_systems',JSON.stringify(state.visible));},[state.visible]);
  useEffect(()=>{const abort=new AbortController();setProgress(0);setError('');setAtlas(null);setChosen(null);setDetails(false);
-  const isChina = new Date().getTimezoneOffset() === -480;
+  const isLocalhost = typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+  const isChina = !isLocalhost && new Date().getTimezoneOffset() === -480;
   const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
   const ossBaseUrl = 'https://cdn.jsdelivr.net/gh/undergravity/human-atlas@main/public';
   const basePath = (isChina && !isCapacitor) ? ossBaseUrl : import.meta.env.BASE_URL.replace(/\/$/, '');

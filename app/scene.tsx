@@ -64,8 +64,8 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
    const isCapacitor = typeof window !== 'undefined' && !!(window as any).Capacitor;
    const chunk = atlas.chunks[ci];
    const compressed = !isCapacitor && !!chunk.gzip && typeof DecompressionStream !== 'undefined';
-   
-   const isChina = new Date().getTimezoneOffset() === -480;
+   const isLocalhost = typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+   const isChina = !isLocalhost && new Date().getTimezoneOffset() === -480;
    const ossBaseUrl = 'https://cdn.jsdelivr.net/gh/undergravity/human-atlas@main/public';
    const basePath = (isChina && !isCapacitor) ? ossBaseUrl : import.meta.env.BASE_URL.replace(/\/$/, '');
    const chunkUrl = basePath + '/' + (compressed ? chunk.gzip! : chunk.url).replace(/^\/+/, '');
@@ -95,7 +95,7 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
          for(let i=0;i<atlas.chunks.length;i++){if(!priorityChunks.has(i))remainingChunks.push(i);}
          
          let cursor = 0;
-         await Promise.all(Array.from({length:2}, async() => {
+         await Promise.all(Array.from({length:7}, async() => {
              while(cursor < orderedChunks.length) {
                  const i = orderedChunks[cursor++];
                  await loadChunk(i);
@@ -109,7 +109,7 @@ export default function AnatomyScene({atlas,state,theme,onSelect,onClear,onProgr
          }
          
          cursor = 0;
-         await Promise.all(Array.from({length:2}, async() => {
+         await Promise.all(Array.from({length:7}, async() => {
              while(cursor < remainingChunks.length) {
                  const i = remainingChunks[cursor++];
                  await loadChunk(i);
